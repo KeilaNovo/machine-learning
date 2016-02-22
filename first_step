@@ -1,0 +1,5 @@
+from sklearn.naive_bayes import GuassianNB
+clf=GuassianNB()
+clf = classify(features_train, labels_train)
+GuassianNB()
+prt=predict(clf.features_test)
